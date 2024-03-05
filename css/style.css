@@ -1,0 +1,49 @@
+/*
+1. Fonts and Body
+2. Welcome
+3. links
+
+
+
+*/
+
+/* 1. FONTS AND BODY -------------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: Lexend;
+  src: url(../font/Lexend-Regular.ttf);
+}
+@font-face {
+  font-family: Lexend-Thin;
+  src: url(../font/Lexend-Thin.ttf);
+}
+
+body {
+  font-family: Lexend;
+  color: aliceblue;
+  background-color: #424549;
+}
+
+/* 2. WELCOME --------------------------------------------------------------------------------------- */
+
+.welcome {
+  margin: 100px 100px 100px 37%;
+}
+
+.title {
+}
+
+/* 3. LINKS ---------------------------------------------------------------------------------------- */
+
+#link {
+  margin-left: 200px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.hover-link:hover {
+  text-transform: uppercase;
+  transition: ease-in-out 250ms;
+  transform: scale(1.2);
+  text-decoration: underline;
+}
